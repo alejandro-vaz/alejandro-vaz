@@ -1,0 +1,38 @@
+{
+  "name": "alejandro-vaz",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "keywords": [
+    "alejandro",
+    "vaz",
+    "personal",
+    "website"
+  ],
+  "homepage": "/",
+  "bugs": {
+    "url": "https://github.com/alejandro-vaz/alejandro-vaz/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandro-vaz/alejandro-vaz.git"
+  },
+  "author": "Alejandro Vaz",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "react-scripts build",
+    "css": "tailwindcss -i ./style.css -o ./public/style.css --minify --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-router-dom": "7.9.5",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^4.1.16"
+  }
+}

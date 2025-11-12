@@ -1,0 +1,12 @@
+/*          */
+/*  IMPORTS */
+/*          */
+
+/* IMPORTS -> TAILWIND */
+@import "tailwindcss";
+
+@layer base {
+    html {
+        background-color: var(--color-slate-100);
+    }
+}
