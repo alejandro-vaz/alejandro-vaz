@@ -9,11 +9,11 @@ import {Analytics} from '@vercel/analytics/react';
 
 // HEAD -> PAGES
 import Home from "./pages/Home.tsx";
+import Abscissa from './pages/Abscissa.tsx';
 import Research from './pages/Research.tsx';
 import High_school from './pages/High school.tsx';
 import Languages from './pages/Languages.tsx';
 import Profiles from './pages/Profiles.tsx';
-import Legal from './pages/Legal.tsx';
 import Printables from './pages/Printables.tsx';
 import Standardized_testing from './pages/Standardized testing.tsx';
 
@@ -54,6 +54,7 @@ export default function App(): React.ReactNode {
             <Analytics/>
             <Routes>
                 <Route path='/' element={<Page noIcon view={<Home/>}/>}/>
+                <Route path='/abscissa' element={<Page sectionName='Abscissa' view={<Abscissa/>}/>}/>
                 <Route path='/research' element={<Page sectionName='Research' view={<Research/>}/>}/>
                 <Route path='/languages' element={<Page sectionName='Languages' view={<Languages/>}/>}/>
                 <Route path='/high-school' element={<Page sectionName='High school' view={<High_school/>}/>}/>
