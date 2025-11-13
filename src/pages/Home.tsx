@@ -43,6 +43,7 @@ export default function Home(): React.ReactNode {
                 <Card type="pdf" to="/Profiles/ENCV.pdf">Curriculum vitae (English)</Card>
             </Section>
             <Section name="Pages">
+                <Card type="page" to="/abscissa">Abscissa</Card>
                 <Card type="page" to="/research">Research</Card>
                 <Card type="page" to="/high-school">High school</Card>
                 <Card type="page" to="/languages">Languages</Card>
