@@ -1,20 +1,20 @@
-//
-//  HEAD
-//
+//^
+//^ HEAD
+//^
 
-// HEAD -> IMPORTS
+//> HEAD -> IMPORTS
 import React from "react";
 
-// HEAD -> COMPONENTS
+//> HEAD -> COMPONENTS
 import Section from "../components/Section.tsx";
 import Card from "../components/Card.tsx";
 
 
-//
-//  LANGUAGES
-//
+//^
+//^ LANGUAGES
+//^
 
-// LANGUAGES -> FUNCTION
+//> LANGUAGES -> FUNCTION
 export default function Languages(): React.ReactNode {
     return (
         <>

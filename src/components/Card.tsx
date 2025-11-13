@@ -1,18 +1,18 @@
-//
-//  HEAD
-//
+//^
+//^ HEAD
+//^
 
-// HEAD -> IMPORTS
+//> HEAD -> IMPORTS
 import React from "react";
 import {Link} from "react-router-dom";
 import Icon from "./Icon.tsx";
 
 
-//
-//  CARD
-//
+//^
+//^ CARD
+//^
 
-// CARD -> FUNCTION
+//> CARD -> FUNCTION
 export default function Card({children, type, to}: {
     children: string,
     type: "page" | "extern" | "download" | "pdf",

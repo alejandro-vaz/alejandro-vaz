@@ -1,13 +1,13 @@
-//
-//  HEAD
-//
+//^
+//^ HEAD
+//^
 
-// HEAD -> IMPORTS
+//> HEAD -> IMPORTS
 import React from 'react';
 import {Routes, Route, Link} from 'react-router-dom';
 import {Analytics} from '@vercel/analytics/react';
 
-// HEAD -> PAGES
+//> HEAD -> PAGES
 import Home from "./pages/Home.tsx";
 import Research from './pages/Research.tsx';
 import High_school from './pages/High school.tsx';
@@ -17,15 +17,15 @@ import Printables from './pages/Printables.tsx';
 import Standardized_testing from './pages/Standardized testing.tsx';
 import Abscissa from './pages/Abscissa.tsx';
 
-// HEAD -> COMPONENTS
+//> HEAD -> COMPONENTS
 import Icon from './components/Icon.tsx';
 
 
-//
-//  APP
-//
+//^
+//^ APP
+//^
 
-// APP -> PAGE
+//> APP -> PAGE
 function Page({view, sectionName, noIcon}: {
     view: React.ReactNode,
     sectionName?: string,
@@ -47,7 +47,7 @@ function Page({view, sectionName, noIcon}: {
     );
 }
 
-// APP -> FUNCTION
+//> APP -> FUNCTION
 export default function App(): React.ReactNode {
     return (
         <>

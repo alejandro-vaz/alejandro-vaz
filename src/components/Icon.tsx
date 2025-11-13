@@ -1,16 +1,16 @@
-//
-//  HEAD
-//
+//^
+//^ HEAD
+//^
 
-// HEAD -> IMPORTS
+//> HEAD -> IMPORTS
 import React from "react";
 
 
-//
-//  ICON
-//
+//^
+//^ ICON
+//^
 
-// ICON -> FILE
+//> ICON -> FILE
 function File(): React.ReactNode {
     return (
         <>
@@ -28,7 +28,7 @@ function File(): React.ReactNode {
     )
 }
 
-// ICON -> DOWNLOAD
+//> ICON -> DOWNLOAD
 function Download(): React.ReactNode {
     return (
         <>
@@ -46,7 +46,7 @@ function Download(): React.ReactNode {
     )
 }
 
-// ICON -> EXTERNAL
+//> ICON -> EXTERNAL
 function External(): React.ReactNode {
     return (
         <>
@@ -57,7 +57,7 @@ function External(): React.ReactNode {
     )
 }
 
-// ICON -> FRONTARROW
+//> ICON -> FRONTARROW
 function FrontArrow(): React.ReactNode {
     return (
         <path
@@ -68,7 +68,7 @@ function FrontArrow(): React.ReactNode {
     )
 }
 
-// ICON -> BACKARROW
+//> ICON -> BACKARROW
 function BackArrow(): React.ReactNode {
     return (
         <path
@@ -79,7 +79,7 @@ function BackArrow(): React.ReactNode {
     )
 }
 
-// ICON -> TYPES
+//> ICON -> TYPES
 const TYPES = {
     File: File,
     Download: Download,
@@ -88,7 +88,7 @@ const TYPES = {
     BackArrow: BackArrow
 }
 
-// ICON -> FUNCTION
+//> ICON -> FUNCTION
 export default function Icon({type, size, width}: {
     type: keyof typeof TYPES,
     size: string,

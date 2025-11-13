@@ -1,21 +1,21 @@
-//
-//  HEAD
-//
+//^
+//^ HEAD
+//^
 
-// HEAD -> IMPORTS
+//> HEAD -> IMPORTS
 import React from "react";
 
-// HEAD -> COMPONENTS
+//> HEAD -> COMPONENTS
 import Section from "../components/Section.tsx";
 import Card from "../components/Card.tsx";
 import {Link} from "react-router-dom";
 
 
-//
-//  HOME
-//
+//^
+//^ HOME
+//^
 
-// HOME -> HEADER
+//> HOME -> HEADER
 function Header(): React.ReactNode {
     return (
         <>
@@ -31,7 +31,7 @@ function Header(): React.ReactNode {
     )
 }
 
-// HOME -> FUNCTION
+//> HOME -> FUNCTION
 export default function Home(): React.ReactNode {
     return (
         <>

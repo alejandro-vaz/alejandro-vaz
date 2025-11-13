@@ -1,16 +1,16 @@
-//
-//  HEAD
-//
+//^
+//^ HEAD
+//^
 
-// HEAD -> IMPORTS
+//> HEAD -> IMPORTS
 import React from "react";
 
 
-//
-//  SECTION
-//
+//^
+//^ SECTION
+//^
 
-// SECTION -> FUNCTION
+//> SECTION -> FUNCTION
 export default function Section({name, children}: {
     name: string,
     children: React.ReactNode
