@@ -24,6 +24,7 @@ export default function Printables(): React.ReactNode {
                 <Card type="pdf" to="/Printables/s-i.pdf">Task management list</Card>
                 <Card type="pdf" to="/Printables/social.pdf">Network social interactions</Card>
                 <Card type="pdf" to="/Printables/threads.pdf">Brainpower thread management</Card>
+                <Card type="pdf" to="/Printables/routines.pdf">Routines</Card>
             </Section>
             <Section name="Personal finances">
                 <Card type="pdf" to="/Printables/wfr.pdf">Weighted financial report</Card>
