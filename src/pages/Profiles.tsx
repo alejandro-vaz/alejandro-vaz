@@ -19,8 +19,8 @@ export default function Profiles(): React.ReactNode {
     return (
         <>
             <Section name="Work">
-                <Card type="pdf" to="/Profiles/ESCV.pdf">Curriculum vitae (Spanish)</Card>
-                <Card type="pdf" to="/Profiles/ENCV.pdf">Curriculum vitae (English)</Card>
+                <Card type="pdf" to="/Profiles/spanish.pdf">Curriculum vitae (Spanish)</Card>
+                <Card type="pdf" to="/Profiles/english.pdf">Curriculum vitae (English)</Card>
                 <Card type="extern" to="https://github.com/alejandro-vaz">GitHub profile</Card>
                 <Card type="extern" to="https://orcid.org/0009-0008-0929-6270">ORCID record</Card>
             </Section>

@@ -19,21 +19,21 @@ export default function Research(): React.ReactNode {
     return (
         <>
             <Section name="String theory">
-                <Card type="pdf" to="/Research/Teoría-de-cuerdas.pdf">Research project</Card>
-                <Card type="download" to="/Research/Teoría-de-cuerdas.pptx">Presentation</Card>
+                <Card type="pdf" to="/Research/stringTheory.pdf">Research project</Card>
+                <Card type="download" to="/Research/stringTheory.pptx">Presentation</Card>
                 <Card type="extern" to="https://github.com/alejandro-vaz/teoria-de-cuerdas">Source code</Card>
             </Section>
             <Section name="Artificial neural networks">
-                <Card type="pdf" to="/Research/redes-neuronales-artificiales.pdf">Research project</Card>
+                <Card type="pdf" to="/Research/artificialNeuralNetworks.pdf">Research project</Card>
             </Section>
             <Section name="Experimental energy sources">
-                <Card type="pdf" to="/Research/experimental-energy.pdf">Research paper</Card>
-                <Card type="pdf" to="/Research/experimental-cover.pdf">Cover page</Card>
+                <Card type="pdf" to="/Research/energy.pdf">Research paper</Card>
+                <Card type="pdf" to="/Research/experimentalCover.pdf">Cover page</Card>
                 <Card type="download" to="/Research/energy.pptx">Presentation</Card>
                 <Card type="extern" to="https://github.com/alejandro-vaz/PI-Energ-as-Experimentales">Source code</Card>
             </Section>
             <Section name="Special relativity">
-                <Card type="pdf" to="/Research/Relatividad-especial-explicada-de-forma-sencilla.pdf">Research project</Card>
+                <Card type="pdf" to="/Research/specialRelativity.pdf">Research project</Card>
             </Section>
         </>
     )

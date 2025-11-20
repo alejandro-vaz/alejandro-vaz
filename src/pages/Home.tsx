@@ -37,10 +37,10 @@ export default function Home(): React.ReactNode {
         <>
             <Header/>
             <Section name="Quick links">
-                <Card type="pdf" to="/Research/Teoría-de-cuerdas.pdf">String theory project</Card>
+                <Card type="pdf" to="/Research/stringTheory.pdf">String theory project</Card>
                 <Card type="extern" to="https://github.com/alejandro-vaz">GitHub profile</Card>
-                <Card type="pdf" to="/Profiles/ESCV.pdf">Curriculum vitae (Spanish)</Card>
-                <Card type="pdf" to="/Profiles/ENCV.pdf">Curriculum vitae (English)</Card>
+                <Card type="pdf" to="/Profiles/spanish.pdf">Curriculum vitae (Spanish)</Card>
+                <Card type="pdf" to="/Profiles/english.pdf">Curriculum vitae (English)</Card>
             </Section>
             <Section name="Pages">
                 <Card type="page" to="/abscissa">Abscissa</Card>
