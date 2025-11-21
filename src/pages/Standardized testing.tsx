@@ -21,6 +21,7 @@ export default function Standardized_testing(): React.ReactNode {
             <Section name="SAT">
                 <Card type="pdf" to="/Standardized-testing/decemberSAT.pdf">December 2024 administration</Card>
                 <Card type="pdf" to="/Standardized-testing/septemberSAT.pdf">September 2025 administration</Card>
+                <Card type="pdf" to="/Standardized-testing/novemberSAT.pdf">November 2025 administration</Card>
             </Section>
         </>
     )
