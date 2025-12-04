@@ -66,7 +66,7 @@
 <br clear="both">
 <div align="center">
     <img 
-        src="https://github-readme-stats.vercel.app/api/top-langs?username=alejandro-vaz&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=1535&theme=dracula&hide_border=true&order=2" 
+        src="https://github-readme-stats.vercel.app/api/top-langs?username=alejandro-vaz&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=1914&theme=dracula&hide_border=true&order=2" 
         height="600" 
         alt="languages graph"  
     />
