@@ -18,6 +18,9 @@ import Card from "../components/Card.tsx";
 export default function Research(): React.ReactNode {
     return (
         <>
+            <Section name="Energy as a currency">
+                <Card type="extern" to="https://doi.org/10.5281/zenodo.18127022">Energy as Currency: A Physical and Digital Framework for Thermodynamic Economies</Card>
+            </Section>
             <Section name="String theory">
                 <Card type="pdf" to="/Research/stringTheory.pdf">Research project</Card>
                 <Card type="download" to="/Research/stringTheory.pptx">Presentation</Card>
