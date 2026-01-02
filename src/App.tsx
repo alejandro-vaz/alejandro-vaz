@@ -14,7 +14,6 @@ import High_school from './pages/High school.tsx';
 import Languages from './pages/Languages.tsx';
 import Profiles from './pages/Profiles.tsx';
 import Printables from './pages/Printables.tsx';
-import Standardized_testing from './pages/Standardized testing.tsx';
 import Abscissa from './pages/Abscissa.tsx';
 
 //> HEAD -> COMPONENTS
@@ -59,7 +58,6 @@ export default function App(): React.ReactNode {
                 <Route path='/high-school' element={<Page sectionName='High school' view={<High_school/>}/>}/>
                 <Route path='/profiles' element={<Page sectionName='Profiles' view={<Profiles/>}/>}/>
                 <Route path='/printables' element={<Page sectionName='Printables' view={<Printables/>}/>}/>
-                <Route path='/standardized-testing' element={<Page sectionName='Standardized testing' view={<Standardized_testing/>}/>}/>
                 <Route path='/abscissa' element={<Page sectionName='Abscissa' view={<Abscissa/>}/>}/>
             </Routes>
         </>

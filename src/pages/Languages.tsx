@@ -20,7 +20,6 @@ export default function Languages(): React.ReactNode {
         <>
             <Section name="English">
                 <Card type="pdf" to="/Languages/det.pdf">Duolingo English Test (PDF)</Card>
-                <Card type="extern" to="https://certs.duolingo.com/t05eupprzqye0pgl">Duolingo English Test (official website)</Card>
             </Section>
         </>
     )

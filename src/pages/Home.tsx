@@ -37,7 +37,6 @@ export default function Home(): React.ReactNode {
         <>
             <Header/>
             <Section name="Quick links">
-                <Card type="pdf" to="/Research/stringTheory.pdf">String theory project</Card>
                 <Card type="extern" to="https://github.com/alejandro-vaz">GitHub profile</Card>
                 <Card type="pdf" to="/Profiles/spanish.pdf">Curriculum vitae (Spanish)</Card>
                 <Card type="pdf" to="/Profiles/english.pdf">Curriculum vitae (English)</Card>
@@ -46,7 +45,6 @@ export default function Home(): React.ReactNode {
                 <Card type="page" to="/abscissa">Abscissa</Card>
                 <Card type="page" to="/research">Research</Card>
                 <Card type="page" to="/high-school">High school</Card>
-                <Card type="page" to="/languages">Languages</Card>
                 <Card type="page" to="/profiles">Profiles</Card>
                 <Card type="page" to="/printables">Printables</Card>
                 <Card type="page" to="/standardized-testing">Standardized testing</Card>
