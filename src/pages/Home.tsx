@@ -37,6 +37,7 @@ export default function Home(): React.ReactNode {
         <>
             <Header/>
             <Section name="Quick links">
+                <Card type="extern" to="https://doi.org/10.5281/zenodo.18127022">Energy as Currency: A Physical and Digital Framework for Thermodynamic Economies</Card>
                 <Card type="extern" to="https://github.com/alejandro-vaz">GitHub profile</Card>
                 <Card type="pdf" to="/Profiles/spanish.pdf">Curriculum vitae (Spanish)</Card>
                 <Card type="pdf" to="/Profiles/english.pdf">Curriculum vitae (English)</Card>
