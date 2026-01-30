@@ -19,7 +19,7 @@ export default function Abscissa(): React.ReactNode {
     return (
         <>
             <Section name="Abscissa">
-                <Card type="extern" to="https://abscissa.eu">Link</Card>
+                <Card type="extern" to="https://abscissa.eu">Website</Card>
                 <Card type="extern" to="https://github.com/alejandro-vaz/abscissa">Source code</Card>
                 <Card type="extern" to="https://docs.abscissa.eu/Abscissa">Documentation</Card>
             </Section>
