@@ -10,10 +10,8 @@ import {Analytics} from '@vercel/analytics/react';
 //> HEAD -> PAGES
 import Home from "./pages/Home.tsx";
 import Research from './pages/Research.tsx';
-import High_school from './pages/High school.tsx';
-import Languages from './pages/Languages.tsx';
+import Certificates from "./pages/Certificates.tsx";
 import Profiles from './pages/Profiles.tsx';
-import Printables from './pages/Printables.tsx';
 import Abscissa from './pages/Abscissa.tsx';
 
 //> HEAD -> COMPONENTS
@@ -54,11 +52,9 @@ export default function App(): React.ReactNode {
             <Routes>
                 <Route path='/' element={<Page noIcon view={<Home/>}/>}/>
                 <Route path='/research' element={<Page sectionName='Research' view={<Research/>}/>}/>
-                <Route path='/languages' element={<Page sectionName='Languages' view={<Languages/>}/>}/>
-                <Route path='/high-school' element={<Page sectionName='High school' view={<High_school/>}/>}/>
-                <Route path='/profiles' element={<Page sectionName='Profiles' view={<Profiles/>}/>}/>
-                <Route path='/printables' element={<Page sectionName='Printables' view={<Printables/>}/>}/>
                 <Route path='/abscissa' element={<Page sectionName='Abscissa' view={<Abscissa/>}/>}/>
+                <Route path='/certificates' element={<Page sectionName='Certificates' view={<Certificates/>}/>}/>
+                <Route path='/profiles' element={<Page sectionName='Profiles' view={<Profiles/>}/>}/>
             </Routes>
         </>
     );

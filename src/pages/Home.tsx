@@ -22,10 +22,13 @@ function Header(): React.ReactNode {
             <img src="/Home/profile.jpg" className="w-44 h-44 ml-auto mr-auto rounded-full mb-2"/>
             <h1 className="text-2xl font-bold text-slate-800 ml-auto mr-auto">Alejandro Vaz</h1>
             <Link to="mailto:alejandro.vaz.myt@gmail.com">
-                <p className="hover:underline text-slate-600">alejandro.vaz.myt@gmail.com</p>
+                <p className="hover:underline text-slate-600">Public: alejandro.vaz.myt@gmail.com</p>
+            </Link>
+            <Link to="mailto:alejandro.vaz@educa.madrid.org">
+                <p className="hover:underline text-slate-600">Academic: alejandro.vaz@educa.madrid.org</p>
             </Link>
             <Link to="tel:+34679983643">
-                <p className="hover:underline text-slate-600 mb-2">+34 679 98 36 43</p>
+                <p className="hover:underline text-slate-600 mb-2">Public: +34 679 98 36 43</p>
             </Link>
         </>
     )
@@ -37,18 +40,21 @@ export default function Home(): React.ReactNode {
         <>
             <Header/>
             <Section name="Quick links">
-                <Card type="extern" to="https://doi.org/10.5281/zenodo.18127022">Energy as Currency: A Physical and Digital Framework for Thermodynamic Economies</Card>
-                <Card type="extern" to="https://github.com/alejandro-vaz">GitHub profile</Card>
-                <Card type="pdf" to="/Profiles/spanish.pdf">Curriculum vitae (Spanish)</Card>
-                <Card type="pdf" to="/Profiles/english.pdf">Curriculum vitae (English)</Card>
+                <Card type="extern" to="https://github.com/alejandro-vaz">
+                    GitHub profile
+                </Card>
+                <Card type="extern" to="https://doi.org/10.5281/zenodo.18127021">
+                    Energy as Currency: A Physical and Digital Framework for ...
+                </Card>
+                <Card type="extern" to="https://github.com/alejandro-vaz/mathsys">
+                    Mathsys GitHub repository
+                </Card>
             </Section>
             <Section name="Pages">
-                <Card type="page" to="/abscissa">Abscissa</Card>
                 <Card type="page" to="/research">Research</Card>
-                <Card type="page" to="/high-school">High school</Card>
+                <Card type="page" to="/abscissa">Abscissa</Card>
+                <Card type="page" to="/certificates">Certificates</Card>
                 <Card type="page" to="/profiles">Profiles</Card>
-                <Card type="page" to="/printables">Printables</Card>
-                <Card type="page" to="/standardized-testing">Standardized testing</Card>
             </Section>
         </>
     );

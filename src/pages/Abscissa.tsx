@@ -22,16 +22,14 @@ export default function Abscissa(): React.ReactNode {
                 <Card type="extern" to="https://abscissa.eu">Link</Card>
                 <Card type="extern" to="https://github.com/alejandro-vaz/abscissa">Source code</Card>
                 <Card type="extern" to="https://docs.abscissa.eu/Abscissa">Documentation</Card>
-                <Card type="extern" to="https://x.com/abscissa_math">X/Twitter profile</Card>
             </Section>
             <Section name="Mathsys">
-                <Card type="extern" to="https://abscissa.eu/playground">Live playground</Card>
                 <Card type="extern" to="https://docs.abscissa.eu/Mathsys">Documentation</Card>
                 <Card type="extern" to="https://github.com/alejandro-vaz/mathsys">Source code</Card>
             </Section>
             <Section name="CSScribe">
                 <Card type="extern" to="https://github.com/alejandro-vaz/csscribe">Source code</Card>
-                <Card type="extern" to="https://csscribe.ct.ws">Command cheatsheet</Card>
+                <Card type="pdf" to="/Abscissa/cheatsheet.pdf">Command cheatsheet</Card>
             </Section>
         </>
     )

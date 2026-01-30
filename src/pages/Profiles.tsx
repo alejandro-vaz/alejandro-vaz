@@ -18,14 +18,18 @@ import Card from "../components/Card.tsx";
 export default function Profiles(): React.ReactNode {
     return (
         <>
-            <Section name="Work">
-                <Card type="pdf" to="/Profiles/spanish.pdf">Curriculum vitae (Spanish)</Card>
-                <Card type="pdf" to="/Profiles/english.pdf">Curriculum vitae (English)</Card>
-                <Card type="extern" to="https://github.com/alejandro-vaz">GitHub profile</Card>
-                <Card type="extern" to="https://orcid.org/0009-0008-0929-6270">ORCID record</Card>
+            <Section name="Research">
+                <Card type="extern" to="https://orcid.org/0009-0008-0929-6270">ORCID</Card>
             </Section>
-            <Section name="Social media">
-                <Card type="extern" to="https://x.com/alejandro__vaz">X/Twitter profile</Card>
+            <Section name="Curriculum Vitae">
+                <Card type="pdf" to="/Profiles/spanish.pdf">In Spanish</Card>
+                <Card type="pdf" to="/Profiles/english.pdf">In English</Card>
+            </Section>
+            <Section name="Computer science">
+                <Card type="extern" to="https://github.com/alejandro-vaz">GitHub profile</Card>
+            </Section>
+            <Section name="Other">
+                <Card type="pdf" to="/Profiles/PersonalEssay.pdf">College application essay (amazing, got rejected)</Card>
             </Section>
         </>
     )
