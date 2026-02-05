@@ -43,9 +43,6 @@ export default function Home(): React.ReactNode {
                 <Card type="extern" to="https://github.com/alejandro-vaz">
                     GitHub profile
                 </Card>
-                <Card type="extern" to="https://doi.org/10.5281/zenodo.18127021">
-                    Energy as Currency: A Physical and Digital Framework for ...
-                </Card>
                 <Card type="extern" to="https://github.com/alejandro-vaz/mathsys">
                     Mathsys GitHub repository
                 </Card>
