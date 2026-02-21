@@ -22,13 +22,16 @@ function Header(): React.ReactNode {
             <img src="/Home/profile.jpg" className="w-44 h-44 ml-auto mr-auto rounded-full mb-2"/>
             <h1 className="text-2xl font-bold text-slate-800 ml-auto mr-auto">Alejandro Vaz</h1>
             <Link to="mailto:alejandro.vaz.myt@gmail.com">
-                <p className="hover:underline text-slate-600">Public: alejandro.vaz.myt@gmail.com</p>
+                <p className="hover:underline text-slate-600">Public email: alejandro.vaz.myt@gmail.com</p>
             </Link>
             <Link to="mailto:alejandro.vaz@educa.madrid.org">
-                <p className="hover:underline text-slate-600">Academic: alejandro.vaz@educa.madrid.org</p>
+                <p className="hover:underline text-slate-600">Academic email 1: alejandro.vaz@educa.madrid.org</p>
+            </Link>
+            <Link to="mailto:alv8@illinois.edu">
+                <p className="hover:underline text-slate-600">Academic email 2: alv8@illinois.edu</p>
             </Link>
             <Link to="tel:+34679983643">
-                <p className="hover:underline text-slate-600 mb-2">Public: +34 679 98 36 43</p>
+                <p className="hover:underline text-slate-600 mb-2">Public number: +34 679 98 36 43</p>
             </Link>
         </>
     )
