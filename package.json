@@ -1,24 +1,4 @@
 {
-  "name": "alejandro-vaz",
-  "version": "1.0.0",
-  "description": "Personal website",
-  "keywords": [
-    "alejandro",
-    "vaz",
-    "personal",
-    "website"
-  ],
-  "homepage": "/",
-  "bugs": {
-    "url": "https://github.com/alejandro-vaz/alejandro-vaz/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alejandro-vaz/alejandro-vaz.git"
-  },
-  "author": "Alejandro Vaz",
-  "type": "module",
-  "main": "index.js",
   "scripts": {
     "build": "react-scripts build",
     "css": "tailwindcss -i ./style.css -o ./public/style.css --minify --watch"

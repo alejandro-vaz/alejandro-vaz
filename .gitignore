@@ -1,1 +1,9 @@
+#^  
+#^  IGNORE
+#^  
+
+#> IGNORE -> NODE
 node_modules
+
+#> IGNORE -> APPLE DIRECTORY DATA
+**/.DS_Store

@@ -1,10 +1,11 @@
-/*          */
-/*  IMPORTS */
-/*          */
+/*^         */
+/*^ BASE    */
+/*^         */
 
-/* IMPORTS -> TAILWIND */
+/*> BASE -> IMPORT */
 @import "tailwindcss";
 
+/*> BASE -> LAYER */
 @layer base {
     html {
         background-color: var(--color-slate-100);
