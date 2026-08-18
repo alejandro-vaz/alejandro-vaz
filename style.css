@@ -16,13 +16,16 @@
 @layer components {
     .prose {
         h1 {
-            @apply text-3xl font-bold text-blue-300;
+            @apply text-2xl font-bold text-blue-600;
         }
         h2 {
-            @apply text-2xl font-bold text-blue-300;
+            @apply text-xl font-bold text-blue-600;
         }
         h3 {
-            @apply text-xl font-bold text-blue-300;
+            @apply text-lg font-bold text-blue-600;
+        }
+        ul::marker {
+            @apply pl-1.5 list-disc;
         }
     }
 } 
