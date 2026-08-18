@@ -19,20 +19,20 @@ import {Link} from "react-router-dom";
 function Header(): React.ReactNode {return (<>
     <img 
         src="/profile.jpg"
-        className="w-44 h-44 ml-auto mr-auto rounded-full mb-2"
+        className="w-44 h-44 ml-auto mr-auto rounded-full mb-2 border-2 border-white"
     />
-    <h1 className="text-2xl font-bold text-slate-800 ml-auto mr-auto">Alejandro Vaz</h1>
+    <h1 className="text-2xl font-bold text-slate-200 ml-auto mr-auto">Alejandro Vaz</h1>
     <p>Public email: <Link 
         to="mailto:alejandro.vaz.myt@gmail.com" 
-        className="hover:underline text-slate-600"
+        className="hover:underline text-slate-400"
     >alejandro.vaz.myt@gmail.com</Link></p>
     <p>Public phone number: <Link 
         to="tel:+34679983643" 
-        className="hover:underline text-slate-600"
+        className="hover:underline text-slate-400"
     >+34 679 98 36 43</Link></p>
     <p>GitHub: <Link
         to="https://github.com/alejandro-vaz"
-        className="hover:underline text-slate-600"
+        className="hover:underline text-slate-400"
     >alejandro-vaz</Link></p>
 </>)}
 
