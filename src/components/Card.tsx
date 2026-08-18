@@ -26,8 +26,8 @@ export default function Card({children, type, to}: {
     }[type]
     return (
         <Link to={to} reloadDocument={type !== "page"} target={type !== "page" ? "_blank" : undefined}>
-            <div className="bg-white rounded-full rounded-l-none border-l-4 w-full h-9 flex items-center border cursor-pointer mb-1">
-                <h3 className="text-slate-600 ml-4 mr-auto">{children}</h3>
+            <div className="bg-black rounded-full rounded-l-none border-l-4 w-full h-9 flex items-center border cursor-pointer mb-1">
+                <h3 className="text-slate-400 ml-4 mr-auto">{children}</h3>
                 <Icon type={icon as any} width={2} size="w-6 h-6 mr-2"/>
             </div>
         </Link>
