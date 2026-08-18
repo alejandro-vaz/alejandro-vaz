@@ -10,21 +10,24 @@
     html {
         background-color: var(--color-slate-100);
     }
-    .prose {
-        & h1 {
-            color: var(--color-blue-300);
-            font-weight: bolder;
-            font-size: var(--text-2xl);
-        }
-        & h2 {
-            color: var(--color-blue-300);
-            font-weight: bold;
-            font-size: var(--text-2xl);
-        }
-        & h3 {
-            color: var(--color-blue-300);
-            font-weight: bold;
-            font-size: var(--text-2xl);
-        }
+}
+
+@layer components {
+    .prose h1 {
+        color: var(--color-blue-300);
+        font-weight: bolder;
+        font-size: var(--text-2xl);
+    }
+
+    .prose h2 {
+        color: var(--color-blue-300);
+        font-weight: bold;
+        font-size: var(--text-2xl);
+    }
+
+    .prose h3 {
+        color: var(--color-blue-300);
+        font-weight: bold;
+        font-size: var(--text-2xl);
     }
 }
