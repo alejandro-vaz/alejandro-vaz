@@ -10,17 +10,18 @@
 
 /*> BASE -> COMPONENTS  */
 @layer components {.prose {
-    p, h1, h2, h3, h4, h5, h6, li, ul, ol {@apply text-justify}
-    h1, h2, h3 {@apply text-blue-900}
-    h4, h5, h6 {@apply text-blue-950 text-base}
-    h1, h2 {@apply font-extrabold}
-    h3, h4 {@apply font-bold}
-    h5, h6 {@apply font-semibold}
-    h1 {@apply text-2xl pt-2.5}
-    h2 {@apply text-xl pt-2}
-    h3 {@apply text-lg pt-1.5}
-    h4 {@apply pt-1}
-    h5 {@apply pt-0.5}
+    > :first-child {@apply pt-0}
+    p, > h1, > h2, > h3, > h4, > h5, > h6, li, ul, ol {@apply text-justify}
+    > h1, > h2, > h3 {@apply text-blue-900}
+    > h4, > h5, > h6 {@apply text-blue-950 text-base}
+    > h1, > h2 {@apply font-extrabold}
+    > h3, > h4 {@apply font-bold}
+    > h5, > h6 {@apply font-semibold}
+    > h1 {@apply text-2xl pt-2.5}
+    > h2 {@apply text-xl pt-2}
+    > h3 {@apply text-lg pt-1.5}
+    > h4 {@apply pt-1}
+    > h5 {@apply pt-0.5}
     ul, ol {@apply pl-6}
     ul {@apply list-disc}
     ol {@apply list-decimal}
