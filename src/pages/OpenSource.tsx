@@ -23,7 +23,7 @@ Rust crate SmallVec (~1B downloads) v2 update and microbenchmarked the improveme
 - Improved \`extend\` performance by +140%.
 - Improved \`push\` performance by +30%.
 - Improved \`pushpop\` performance by +40%.
-- Submitted [upstream Pull Request](https://github.com/servo/rust-smallvec/pull/405).
+- Submitted [upstream Pull Request.](https://github.com/servo/rust-smallvec/pull/405)
 
 ## Rust Stack-Array
 
@@ -32,6 +32,13 @@ Maintainer of the Rust crate [Stack-Array](https://crates.io/crates/stack-array)
 - Assumed ownership of the crate after developing a new implementation with compile-
 time evaluation support replacing the original codebase.
 - Expanded the public API with 15+ operations, iterators and traits.
+
+## Reforge
+
+Implemented prerelease version upgrading strategy.
+
+- Submitted [upstream Pull Request.](https://github.com/wellington/reforge/pull/15)
+- Minor bug fixes.
 `;
 
 //> OPENSOURCE -> FUNCTION
