@@ -15,7 +15,12 @@ import Markdown from "react-markdown";
 
 //> PROJECTS -> CONTENT
 const content = `
-## Projects
+## Mathsys
+
+[Mathsys](https://crates.io/crates/mathsys) is the Domain-Specific Language (DSL) for simplified mathematical typesetting.
+
+- Hand-rolled lexer/tokenizer (zero-copy byte-scanner).
+- Hand-rolled recursive descent parser (backtracking).
 `;
 
 //> PROJECTS -> FUNCTION
