@@ -10,10 +10,6 @@
     html {
         background-color: var(--color-slate-100);
     }
-}
-
-/*> BASE -> COMPONENTS  */
-@layer components {
     .prose {
         & h1 {
             @apply text-3xl font-bold text-blue-300;
