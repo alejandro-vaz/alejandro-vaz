@@ -2,7 +2,7 @@
 #^  IGNORE
 #^  
 
-#> IGNORE -> NODE
+#> IGNORE -> NODE_MODULES
 node_modules
 
 #> IGNORE -> APPLE DIRECTORY DATA

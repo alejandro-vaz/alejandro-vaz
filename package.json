@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "tailwindcss -i ./style.css -o ./public/style.css --minify react-scripts build"
+    "build": "tailwindcss -i ./style.css -o ./public/style.css --minify && react-scripts build"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.3.3",
