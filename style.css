@@ -6,15 +6,15 @@
 @import "tailwindcss";
 
 /*> BASE -> LAYER */
-@layer base {html {@apply bg-slate-100}}
+@layer base {html {@apply bg-slate-900 text-white}}
 
 /*> BASE -> COMPONENTS  */
 @layer components {.prose {
     > :first-child {@apply pt-0}
     > h1 {@apply hidden}
     p, > h2, > h3, > h4, > h5, > h6, li, ul, ol {@apply text-justify}
-    > h2, > h3 {@apply text-blue-900}
-    > h4, > h5, > h6 {@apply text-blue-950 text-base}
+    > h2, > h3 {@apply text-blue-100}
+    > h4, > h5, > h6 {@apply text-blue-50 text-base}
     > h2 {@apply font-extrabold}
     > h3, > h4 {@apply font-bold}
     > h5, > h6 {@apply font-semibold}
@@ -26,5 +26,5 @@
     ul {@apply list-disc}
     ol {@apply list-decimal}
     a {@apply underline}
-    code {@apply pl-1 pr-1 bg-gray-400}
+    code {@apply pl-1 pr-1 bg-gray-600}
 }} 
