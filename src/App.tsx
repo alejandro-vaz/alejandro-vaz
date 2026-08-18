@@ -10,9 +10,6 @@ import {Analytics} from '@vercel/analytics/react';
 //> HEAD -> PAGES
 import Home from "./pages/Home.tsx";
 import Research from './pages/Research.tsx';
-import Certificates from "./pages/Certificates.tsx";
-import Profiles from './pages/Profiles.tsx';
-import Abscissa from './pages/Abscissa.tsx';
 
 //> HEAD -> COMPONENTS
 import Icon from './components/Icon.tsx';
@@ -45,17 +42,12 @@ function Page({view, sectionName, noIcon}: {
 }
 
 //> APP -> FUNCTION
-export default function App(): React.ReactNode {
-    return (
-        <>
-            <Analytics/>
-            <Routes>
-                <Route path='/' element={<Page noIcon view={<Home/>}/>}/>
-                <Route path='/research' element={<Page sectionName='Research' view={<Research/>}/>}/>
-                <Route path='/abscissa' element={<Page sectionName='Abscissa' view={<Abscissa/>}/>}/>
-                <Route path='/certificates' element={<Page sectionName='Certificates' view={<Certificates/>}/>}/>
-                <Route path='/profiles' element={<Page sectionName='Profiles' view={<Profiles/>}/>}/>
-            </Routes>
-        </>
-    );
-}
+export default function App(): React.ReactNode {return (<>
+    <Analytics/>
+    <Routes>
+        <Route path='/' element={<Page noIcon view={<Home/>}/>}/>
+        <Route path='/research' element={
+            <Page sectionName='Research' view={<Research/>}/>
+        }/>
+    </Routes>
+</>)}
