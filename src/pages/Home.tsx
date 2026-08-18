@@ -21,9 +21,7 @@ function Header(): React.ReactNode {return (<>
         src="/profile.jpg"
         className="w-44 h-44 ml-auto mr-auto rounded-full mb-2"
     />
-    <h1 className="text-2xl font-bold text-slate-800 ml-auto mr-auto">
-        Alejandro Vaz
-    </h1>
+    <h1 className="text-2xl font-bold text-slate-800 ml-auto mr-auto">Alejandro Vaz</h1>
     <p>Public email: <Link 
         to="mailto:alejandro.vaz.myt@gmail.com" 
         className="hover:underline text-slate-600"
@@ -43,5 +41,6 @@ export default function Home(): React.ReactNode {return (<>
     <Header/>
     <Section name="Pages">
         <Card type="page" to="/research">Research</Card>
+        <Card type="page" to="/opensource">Open Source</Card>
     </Section>
 </>)}
