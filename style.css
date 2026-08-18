@@ -6,47 +6,20 @@
 @import "tailwindcss";
 
 /*> BASE -> LAYER */
-@layer base {
-    html {
-        @apply bg-slate-100;
-    }
-}
+@layer base {html {@apply bg-slate-100}}
 
 /*> BASE -> COMPONENTS  */
-@layer components {
-    .prose {
-        h1, h2, h3 {
-            @apply text-blue-900;
-        }
-        h4, h5, h6 {
-            @apply text-blue-950 text-base;
-        }
-        h1, h2 {
-            @apply font-extrabold;
-        }
-        h3, h4 {
-            @apply font-bold;
-        }
-        h5, h6 {
-            @apply font-semibold;
-        }
-        h1 {
-            @apply text-2xl;
-        }
-        h2 {
-            @apply text-xl;
-        }
-        h3 {
-            @apply text-lg;
-        }
-        ul, ol {
-            @apply pl-6;
-        }
-        ul {
-            @apply list-disc;
-        }
-        ol {
-            @apply list-decimal;
-        }
-    }
-} 
+@layer components {.prose {
+    p, h1, h2, h3, h4, h5, h6, li, ul, ol {@apply text-justify}
+    h1, h2, h3 {@apply text-blue-900}
+    h4, h5, h6 {@apply text-blue-950 text-base}
+    h1, h2 {@apply font-extrabold}
+    h3, h4 {@apply font-bold}
+    h5, h6 {@apply font-semibold}
+    h1 {@apply text-2xl}
+    h2 {@apply text-xl}
+    h3 {@apply text-lg}
+    ul, ol {@apply pl-6}
+    ul {@apply list-disc}
+    ol {@apply list-decimal}
+}} 
