@@ -5,6 +5,9 @@
 /*> BASE -> IMPORT */
 @import "tailwindcss";
 
+/*> BASE -> PLUGINS */
+@plugin "@tailwindcss/typography";
+
 /*> BASE -> LAYER */
 @layer base {
     html {
