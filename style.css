@@ -5,12 +5,14 @@
 /*> BASE -> IMPORT */
 @import "tailwindcss";
 
-/*> BASE -> PLUGINS */
-@plugin "@tailwindcss/typography";
-
 /*> BASE -> LAYER */
 @layer base {
     html {
         background-color: var(--color-slate-100);
+    }
+    .prose {
+        h2 {
+            size: 5rem;
+        }
     }
 }
