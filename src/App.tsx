@@ -26,7 +26,7 @@ function Page({view, sectionName, noIcon}: {
     noIcon?: boolean
 }): React.ReactNode {
     return (
-        <div className="min-h-screen w-full mr-auto ml-auto md:w-1/2 flex flex-col items-center px-4 py-8">
+        <div className="min-h-screen w-full mr-auto ml-auto lg:w-3/4 flex flex-col items-center px-4 py-8">
             <div className="w-full flex mb-6">
                 {!noIcon && <Link
                     to="/"
