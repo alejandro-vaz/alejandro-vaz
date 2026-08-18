@@ -32,11 +32,11 @@ function Page({view, sectionName, noIcon}: {
             <div className="w-full flex mb-6">
                 {!noIcon && <Link
                     to="/"
-                    className="text-slate-600 hover:text-slate-800 text-2xl mr-4"
+                    className="text-slate-400 hover:text-slate-200 text-2xl mr-4"
                 >
                     <Icon type="BackArrow" size='w-8 h-8' width={2}/>
                 </Link>}
-                <h1 className="text-2xl font-bold text-slate-800">{sectionName}</h1>
+                <h1 className="text-2xl font-bold text-slate-200">{sectionName}</h1>
             </div>
             {view}
         </div>
