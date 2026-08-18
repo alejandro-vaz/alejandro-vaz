@@ -12,13 +12,19 @@
     }
     .prose {
         & h1 {
-            @apply text-3xl font-bold text-blue-300;
+            color: var(--color-blue-300);
+            font-weight: bolder;
+            font-size: var(--text-2xl);
         }
         & h2 {
-            @apply text-2xl font-bold text-blue-300;
+            color: var(--color-blue-300);
+            font-weight: bold;
+            font-size: var(--text-2xl);
         }
         & h3 {
-            @apply text-xl font-bold text-blue-300;
+            color: var(--color-blue-300);
+            font-weight: bold;
+            font-size: var(--text-2xl);
         }
     }
 }
