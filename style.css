@@ -22,4 +22,5 @@
     ul, ol {@apply pl-6}
     ul {@apply list-disc}
     ol {@apply list-decimal}
+    a {@apply underline}
 }} 
