@@ -18,7 +18,7 @@ import {Link} from "react-router-dom";
 //> HOME -> HEADER
 function Header(): React.ReactNode {return (<>
     <img 
-        src="/Home/profile.jpg"
+        src="/profile.jpg"
         className="w-44 h-44 ml-auto mr-auto rounded-full mb-2"
     />
     <h1 className="text-2xl font-bold text-slate-800 ml-auto mr-auto">
