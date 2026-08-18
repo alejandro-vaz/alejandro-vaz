@@ -24,7 +24,7 @@
         h3 {
             @apply text-lg font-bold text-blue-600;
         }
-        ul::marker {
+        ul {
             @apply pl-1.5 list-disc;
         }
     }
