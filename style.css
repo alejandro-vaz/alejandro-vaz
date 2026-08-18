@@ -10,9 +10,19 @@
     html {
         background-color: var(--color-slate-100);
     }
+}
+
+/*> BASE -> COMPONENTS  */
+@layer components {
     .prose {
-        h2 {
-            size: 5rem;
+        & h1 {
+            @apply text-3xl font-bold text-blue-300;
+        }
+        & h2 {
+            @apply text-2xl font-bold text-blue-300;
+        }
+        & h3 {
+            @apply text-xl font-bold text-blue-300;
         }
     }
 }
