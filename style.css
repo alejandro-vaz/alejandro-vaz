@@ -26,5 +26,5 @@
     ul {@apply list-disc}
     ol {@apply list-decimal}
     a {@apply underline}
-    code {@apply pl-1 pr-1 bg-gray-600}
+    code {@apply pl-1 pr-1 bg-gray-600 rounded-xs}
 }} 
