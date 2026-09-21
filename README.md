@@ -1,6 +1,6 @@
 default maintainer of https://github.com/servo/rust-smallvec. 
 
-review hours: around 05:00-07:00 UTC, maybe
+reviews: within 24 hours
 
 available part-time for optimization, performance auditing, 
 custom data structure engineering, tokenization, and parsing
