@@ -40,8 +40,7 @@ function Header(): React.ReactNode {return (<>
 export default function Home(): React.ReactNode {return (<>
     <Header/>
     <Section name="Pages">
-        <Card type="page" to="/opensource">Open Source</Card>
+        <Card type="page" to="/experience">Experience</Card>
         <Card type="page" to="/projects">Projects</Card>
-        <Card type="page" to="/research">Research</Card>
     </Section>
 </>)}
