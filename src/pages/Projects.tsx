@@ -17,19 +17,11 @@ import Markdown from "react-markdown";
 const content = `
 ## Mathsys
 
-[Mathsys](https://crates.io/crates/mathsys) is the Domain-Specific Language (DSL) for 
-simplified mathematical typesetting.
+Mathsys is a Domain-Specific Language (DSL) for simplified mathematical typesetting.
 
-- Hand-rolled lexer/tokenizer (zero-copy byte-scanner).
-- Hand-rolled recursive descent parser (backtracking).
-
-## Abscissa
-
-TBD
-
-## CSScribe
-
-TBD
+- Current parser: handwritten scannerless recursive-descent parser combinator with backtracking and on-the-fly contextual disambiguation.
+- Old parser: handwritten Earley parser with post-parse contextual disambiguation.
+- Old tokenizer: handwritten zero-copy ASCII byte-scanner.
 `;
 
 //> PROJECTS -> FUNCTION

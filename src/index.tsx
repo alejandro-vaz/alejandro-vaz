@@ -13,6 +13,4 @@ import App from './App.tsx';
 //^
 
 //> APP -> CONTENT
-createRoot(document.getElementById('root') as Container).render(
-    <BrowserRouter><App/></BrowserRouter>
-);
+createRoot(document.getElementById('root') as Container).render(<BrowserRouter><App/></BrowserRouter>);

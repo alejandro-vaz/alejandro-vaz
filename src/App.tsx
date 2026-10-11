@@ -9,8 +9,7 @@ import {Analytics} from '@vercel/analytics/react';
 
 //> HEAD -> PAGES
 import Home from "./pages/Home.tsx";
-import Research from './pages/Research.tsx';
-import OpenSource from './pages/OpenSource.tsx';
+import Experience from './pages/Experience.tsx';
 import Projects from './pages/Projects.tsx';
 
 //> HEAD -> COMPONENTS
@@ -47,15 +46,14 @@ function Page({view, sectionName, noIcon}: {
 export default function App(): React.ReactNode {return (<>
     <Analytics/>
     <Routes>
-        <Route path='/opensource' element={
-            <Page sectionName='Open Source' view={<OpenSource/>}/>
+        <Route path='/experience' element={
+            <Page sectionName='Open Source' view={<Experience/>}/>
         }/>
         <Route path='/projects' element={
             <Page sectionName='Projects' view={<Projects/>}/>
         }/> 
-        <Route path='/' element={<Page noIcon view={<Home/>}/>}/>
-        <Route path='/research' element={
-            <Page sectionName='Research' view={<Research/>}/>
+        <Route path='/' element={
+            <Page noIcon view={<Home/>}/>
         }/>
     </Routes>
 </>)}
