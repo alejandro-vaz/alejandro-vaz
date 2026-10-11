@@ -47,7 +47,7 @@ export default function App(): React.ReactNode {return (<>
     <Analytics/>
     <Routes>
         <Route path='/experience' element={
-            <Page sectionName='Open Source' view={<Experience/>}/>
+            <Page sectionName='Experience' view={<Experience/>}/>
         }/>
         <Route path='/projects' element={
             <Page sectionName='Projects' view={<Projects/>}/>
