@@ -56,10 +56,11 @@ export default function Home(): React.ReactNode {
         <main className="page-content home-page">
             <section className="hero" aria-labelledby="hero-title">
                 <div className="hero-copy">
-                    <p className="eyebrow"><span className="status-dot" /> OPEN SOURCE · RUST</p>
+                    <p className="eyebrow"><span className="status-dot" /> FEATURED PROJECT · RUST</p>
                     <h1 id="hero-title">SmallVec<span className="hero-period">.</span></h1>
+                    <p className="hero-byline">Maintained by <strong>Alejandro Vaz</strong></p>
                     <p className="hero-lede">A Vec-like collection that keeps small amounts of data inline, avoiding a heap allocation until it needs to grow.</p>
-                    <p className="hero-caption">My main open-source work. I’m the default maintainer of the Rust crate.</p>
+                    <p className="hero-caption">Rust crate · architecture, reviews, testing, CI, and releases</p>
                     <div className="hero-actions">
                         <a className="button button-primary" href="https://github.com/servo/rust-smallvec" target="_blank" rel="noreferrer">Explore the repository <span aria-hidden="true">↗</span></a>
                         <a className="text-link" href="https://crates.io/crates/smallvec" target="_blank" rel="noreferrer">Crates.io <span aria-hidden="true">↗</span></a>

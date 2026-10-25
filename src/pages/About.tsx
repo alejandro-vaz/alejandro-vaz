@@ -17,7 +17,7 @@ export default function About(): React.ReactNode {
                 <img className="profile-photo" src="/profile.jpg" alt="Alejandro Vaz" />
                 <div className="about-intro-copy">
                     <p className="eyebrow">SOFTWARE · OPEN SOURCE · RESEARCH</p>
-                    <h1 id="about-heading">Hi, I’m Alejandro<span className="hero-period">.</span></h1>
+                    <h1 id="about-heading">Hello, I’m Alejandro<span className="hero-period">.</span></h1>
                     <p className="about-lede">I work on Rust libraries and language tools, from parser design and APIs to the careful maintenance that keeps software dependable.</p>
                     <div className="contact-links" aria-label="Contact links">
                         <a href="mailto:alejandro.vaz.myt@gmail.com">Email <span>alejandro.vaz.myt@gmail.com</span><b aria-hidden="true">↗</b></a>

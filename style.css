@@ -177,10 +177,22 @@ a:focus-visible {
     line-height: 1.52;
 }
 
+.hero-byline {
+    margin: 0 0 12px;
+    color: #c5d2d8;
+    font-size: 15px;
+    letter-spacing: -0.01em;
+}
+
+.hero-byline strong {
+    color: #eef3f5;
+    font-weight: 650;
+}
+
 .hero-caption {
-    margin: 19px 0 0;
+    margin: 13px 0 0;
     color: var(--muted);
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .hero-actions {
