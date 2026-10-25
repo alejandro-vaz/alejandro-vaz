@@ -1,59 +1,49 @@
-//^
-//^ HEAD
-//^
-
-//> HEAD -> IMPORTS
 import React from 'react';
-import {Routes, Route, Link} from 'react-router-dom';
 import {Analytics} from '@vercel/analytics/react';
+import {Link, Navigate, NavLink, Route, Routes} from 'react-router-dom';
 
-//> HEAD -> PAGES
-import Home from "./pages/Home.tsx";
-import Experience from './pages/Experience.tsx';
-import Projects from './pages/Projects.tsx';
+import About from './pages/About.tsx';
+import Home from './pages/Home.tsx';
 
-//> HEAD -> COMPONENTS
-import Icon from './components/Icon.tsx';
-
-
-//^
-//^ APP
-//^
-
-//> APP -> PAGE
-function Page({view, sectionName, noIcon}: {
-    view: React.ReactNode,
-    sectionName?: string,
-    noIcon?: boolean
-}): React.ReactNode {
+function SiteHeader(): React.ReactNode {
     return (
-        <div className="min-h-screen w-full mr-auto ml-auto lg:w-3/5 flex flex-col items-center px-4 py-8">
-            <div className="w-full flex mb-6">
-                {!noIcon && <Link
-                    to="/"
-                    className="text-slate-400 hover:text-slate-200 text-2xl mr-4"
-                >
-                    <Icon type="BackArrow" size='w-8 h-8' width={2}/>
-                </Link>}
-                <h1 className="text-2xl font-bold text-slate-200">{sectionName}</h1>
-            </div>
-            {view}
-        </div>
+        <header className="site-header">
+            <Link className="wordmark" to="/" aria-label="Alejandro Vaz, home">
+                <span className="wordmark-mark">AV</span>
+                <span>Alejandro Vaz</span>
+            </Link>
+            <nav className="site-nav" aria-label="Main navigation">
+                <NavLink to="/" end className={({isActive}) => isActive ? 'nav-link is-active' : 'nav-link'}>Work</NavLink>
+                <NavLink to="/about" className={({isActive}) => isActive ? 'nav-link is-active' : 'nav-link'}>About</NavLink>
+            </nav>
+        </header>
     );
 }
 
-//> APP -> FUNCTION
-export default function App(): React.ReactNode {return (<>
-    <Analytics/>
-    <Routes>
-        <Route path='/experience' element={
-            <Page sectionName='Experience' view={<Experience/>}/>
-        }/>
-        <Route path='/projects' element={
-            <Page sectionName='Projects' view={<Projects/>}/>
-        }/> 
-        <Route path='/' element={
-            <Page noIcon view={<Home/>}/>
-        }/>
-    </Routes>
-</>)}
+function SiteFooter(): React.ReactNode {
+    return (
+        <footer className="site-footer">
+            <span>Rust · open source · language tools</span>
+            <span>© {new Date().getFullYear()} Alejandro Vaz</span>
+        </footer>
+    );
+}
+
+export default function App(): React.ReactNode {
+    return (
+        <>
+            <Analytics />
+            <div className="site-shell">
+                <SiteHeader />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/experience" element={<Navigate to="/" replace />} />
+                    <Route path="/projects" element={<Navigate to="/#work" replace />} />
+                    <Route path="*" element={<Navigate to="/" replace />} />
+                </Routes>
+                <SiteFooter />
+            </div>
+        </>
+    );
+}
