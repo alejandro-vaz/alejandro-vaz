@@ -3,6 +3,7 @@ import {Analytics} from '@vercel/analytics/react';
 import {Link, Navigate, NavLink, Route, Routes} from 'react-router-dom';
 
 import About from './pages/About.tsx';
+import Fund from './pages/Fund.tsx';
 import Home from './pages/Home.tsx';
 
 function SiteHeader(): React.ReactNode {
@@ -14,6 +15,7 @@ function SiteHeader(): React.ReactNode {
             </Link>
             <nav className="site-nav" aria-label="Main navigation">
                 <NavLink to="/" end className={({isActive}) => isActive ? 'nav-link is-active' : 'nav-link'}>Work</NavLink>
+                <NavLink to="/fund" className={({isActive}) => isActive ? 'nav-link is-active' : 'nav-link'}>Fund</NavLink>
                 <NavLink to="/about" className={({isActive}) => isActive ? 'nav-link is-active' : 'nav-link'}>About</NavLink>
             </nav>
         </header>
@@ -38,6 +40,7 @@ export default function App(): React.ReactNode {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="/fund" element={<Fund />} />
                     <Route path="/experience" element={<Navigate to="/" replace />} />
                     <Route path="/projects" element={<Navigate to="/#work" replace />} />
                     <Route path="*" element={<Navigate to="/" replace />} />

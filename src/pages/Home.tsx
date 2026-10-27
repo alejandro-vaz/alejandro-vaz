@@ -62,7 +62,8 @@ export default function Home(): React.ReactNode {
                     <p className="hero-lede">A Vec-like collection that keeps small amounts of data inline, avoiding a heap allocation until it needs to grow.</p>
                     <p className="hero-caption">Rust crate · architecture, reviews, testing, CI, and releases</p>
                     <div className="hero-actions">
-                        <a className="button button-primary" href="https://github.com/servo/rust-smallvec" target="_blank" rel="noreferrer">Explore the repository <span aria-hidden="true">↗</span></a>
+                        <Link className="button button-primary" to="/fund">Support my work <span aria-hidden="true">↗</span></Link>
+                        <a className="text-link" href="https://github.com/servo/rust-smallvec" target="_blank" rel="noreferrer">Explore the repository <span aria-hidden="true">↗</span></a>
                         <a className="text-link" href="https://crates.io/crates/smallvec" target="_blank" rel="noreferrer">Crates.io <span aria-hidden="true">↗</span></a>
                     </div>
                 </div>
@@ -85,7 +86,7 @@ export default function Home(): React.ReactNode {
                         <div className="work-facts">
                             <span><strong>~115</strong> PRs reviewed</span>
                             <span><strong>~60</strong> merged PRs authored</span>
-                            <span><strong>~36M</strong> downloads</span>
+                            <span><strong>1.3B+</strong> downloads</span>
                         </div>
                         <div className="work-links">
                             <a href="https://github.com/servo/rust-smallvec" target="_blank" rel="noreferrer">Repository <span aria-hidden="true">↗</span></a>

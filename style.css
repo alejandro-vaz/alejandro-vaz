@@ -696,6 +696,244 @@ a:focus-visible {
     letter-spacing: 0.025em;
 }
 
+.fund-page {
+    padding-top: 49px;
+}
+
+.fund-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(270px, 0.72fr);
+    align-items: center;
+    gap: 55px;
+    padding: 23px 0 51px;
+    border-bottom: 1px solid var(--line-soft);
+}
+
+.fund-intro h1 {
+    max-width: 650px;
+    margin: 17px 0 15px;
+    color: #f0f3f4;
+    font-size: clamp(42px, 6.2vw, 69px);
+    font-weight: 610;
+    letter-spacing: -0.073em;
+    line-height: 1.01;
+}
+
+.fund-lede {
+    max-width: 600px;
+    margin: 0 0 22px;
+    color: #aebbc1;
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+.fund-platform-note {
+    margin: 12px 0 0;
+    color: #718087;
+    font-size: 9px;
+}
+
+.fund-goal {
+    padding: 22px 23px 20px;
+    border: 1px solid #34444b;
+    border-radius: 10px;
+    background: linear-gradient(145deg, rgba(25, 36, 42, 0.92), rgba(16, 23, 27, 0.94));
+}
+
+.fund-goal-amount {
+    margin-top: 14px;
+    color: #e6eef1;
+    font-family: var(--mono);
+    font-size: 37px;
+    letter-spacing: -0.08em;
+    line-height: 1.2;
+}
+
+.fund-goal-amount span {
+    color: #8d9ba2;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.fund-goal-rule {
+    height: 4px;
+    margin: 15px 0 16px;
+    border-radius: 4px;
+    background: #28343a;
+}
+
+.fund-goal-rule span {
+    display: block;
+    width: 0;
+    height: 100%;
+    border-radius: inherit;
+    background: #a9c9d6;
+}
+
+.fund-goal-copy {
+    margin: 0;
+    color: #a1adb3;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.fund-goal-copy strong {
+    color: #dae4e8;
+    font-weight: 600;
+}
+
+.fund-goal-foot {
+    display: block;
+    margin-top: 19px;
+    color: #70828b;
+    font-family: var(--mono);
+    font-size: 8px;
+    letter-spacing: 0.08em;
+}
+
+.fund-impact {
+    display: grid;
+    grid-template-columns: 0.65fr 0.78fr 1.4fr;
+    align-items: center;
+    gap: 25px;
+    padding: 22px 0 23px;
+    border-bottom: 1px solid var(--line);
+}
+
+.fund-impact div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.fund-impact div strong {
+    color: #dce7eb;
+    font-family: var(--mono);
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+}
+
+.fund-impact div span {
+    color: #7e8b92;
+    font-size: 9px;
+}
+
+.fund-impact > p {
+    max-width: 350px;
+    margin: 0;
+    color: #8f9ca2;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.fund-work-section {
+    padding: 65px 0 0;
+}
+
+.fund-work-list {
+    border-top: 1px solid var(--line);
+}
+
+.fund-work-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 45px minmax(0, 1fr) 25px;
+    gap: 12px;
+    padding: 24px 2px 25px;
+    border-bottom: 1px solid var(--line);
+}
+
+.fund-work-featured {
+    padding-top: 27px;
+    padding-bottom: 28px;
+    border-bottom-color: #34434b;
+}
+
+.fund-work-number {
+    padding-top: 3px;
+    color: #95a9b2;
+    font-family: var(--mono);
+    font-size: 10px;
+}
+
+.fund-work-copy > .eyebrow {
+    color: #7c929c;
+    font-size: 8px;
+}
+
+.fund-work-copy h3 {
+    margin: 5px 0 0;
+    color: #e1e8eb;
+    font-size: 20px;
+    font-weight: 570;
+    letter-spacing: -0.035em;
+    line-height: 1.35;
+}
+
+.fund-work-description {
+    max-width: 700px;
+    margin: 6px 0 0;
+    color: #9aa6ac;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.fund-work-detail {
+    display: inline-block;
+    margin-top: 10px;
+    color: #73858e;
+    font-family: var(--mono);
+    font-size: 8px;
+    letter-spacing: 0.06em;
+}
+
+.fund-project-link {
+    align-self: start;
+    justify-self: end;
+    color: #a9c4cf;
+    font-size: 15px;
+    transition: color 150ms ease;
+}
+
+.fund-project-link:hover {
+    color: #eef5f7;
+}
+
+.fund-ask {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    margin-top: 55px;
+    padding: 26px 28px;
+    border: 1px solid #2c3b43;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(26, 38, 44, 0.78), rgba(16, 23, 27, 0.76));
+}
+
+.fund-ask h2 {
+    margin: 8px 0 5px;
+    color: #e2e9ec;
+    font-size: 22px;
+    font-weight: 560;
+    letter-spacing: -0.045em;
+    line-height: 1.25;
+}
+
+.fund-ask > div > p:not(.eyebrow) {
+    max-width: 560px;
+    margin: 0;
+    color: #9ba8ae;
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+.fund-ask .button {
+    flex-shrink: 0;
+}
+
 @media (max-width: 760px) {
     .site-shell {
         width: min(100% - 36px, 600px);
@@ -746,6 +984,16 @@ a:focus-visible {
     .about-intro h1 {
         font-size: clamp(40px, 7vw, 55px);
     }
+
+    .fund-hero {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 27px;
+        padding-top: 18px;
+    }
+
+    .fund-goal {
+        max-width: 440px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -769,6 +1017,10 @@ a:focus-visible {
 
     .site-nav {
         gap: 20px;
+    }
+
+    .nav-link {
+        font-size: 12px;
     }
 
     .hero {
@@ -832,6 +1084,58 @@ a:focus-visible {
 
     .about-page {
         padding-top: 36px;
+    }
+
+    .fund-page {
+        padding-top: 37px;
+    }
+
+    .fund-intro h1 {
+        font-size: 48px;
+    }
+
+    .fund-lede {
+        font-size: 13px;
+    }
+
+    .fund-goal {
+        padding: 20px;
+    }
+
+    .fund-impact {
+        grid-template-columns: 1fr 1fr;
+        gap: 17px 20px;
+    }
+
+    .fund-impact > p {
+        grid-column: 1 / -1;
+        max-width: none;
+    }
+
+    .fund-work-section {
+        padding-top: 47px;
+    }
+
+    .fund-work-item {
+        grid-template-columns: 30px minmax(0, 1fr) 18px;
+        gap: 8px;
+        padding: 20px 0 21px;
+    }
+
+    .fund-work-copy h3 {
+        font-size: 18px;
+    }
+
+    .fund-work-description {
+        font-size: 11px;
+    }
+
+    .fund-ask {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 18px;
+        margin-top: 42px;
+        padding: 22px 19px;
     }
 
     .about-intro {
