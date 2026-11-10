@@ -1,4 +1,4 @@
-maintainer of https://github.com/servo/rust-smallvec
+maintainer of https://github.com/smallvec/smallvec
 
 reviews: within 24 hours
 
